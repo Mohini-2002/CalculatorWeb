@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif:wght@700&family=Rajdhani:wght@300;400&family=Roboto&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button{
+  color: white;
+  background-color: dodgerblue;
+  padding: 20px;
+  width: 66px;
+  margin: 0 4px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.row{
+  margin: 4px 0;
+}
+
+.row input{
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 38px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.row input:hover{
+  color:white ;
+  background-color:dodgerblue ;
+}
+.button:hover{
+  background-color: white;
+  color: dodgerblue;
+}
